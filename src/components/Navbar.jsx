@@ -1,0 +1,121 @@
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <div className="py-5 h-[120px] px-10 flex justify-between items-center   relative">
+      {/* Logo */}
+      <h1 className="font-bold text-2xl text-black">PHILIK</h1>
+
+      {/* Navigation Links */}
+      <div className={`hidden md:flex w-[500px] px-[10px] h-[63px] rounded-full py-2 justify-center items-center gap-5 bg-[#FDECD8]`}>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'}`
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'}`
+          }
+        >
+          About
+        </NavLink>
+        <NavLink
+          to="/programs"
+          className={({ isActive }) =>
+            `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'}`
+          }
+        >
+          Programs
+        </NavLink>
+        <NavLink
+          to="/team"
+          className={({ isActive }) =>
+            `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'}`
+          }
+        >
+          Team
+        </NavLink>
+      </div>
+
+      {/* Action Buttons */}
+      <div className="hidden md:flex gap-6">
+        <button className="w-[123px] h-[45px] rounded-full text-sm font-medium border border-black flex items-center justify-center">
+          Reach Out
+        </button>
+        <button className="w-[123px] h-[45px] rounded-full text-sm font-medium text-white bg-black flex items-center justify-center">
+          Get Started
+        </button>
+      </div>
+
+      {/* Hamburger Menu */}
+      <div className="md:hidden">
+        <button
+          className="text-black"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-8 h-8">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 6h16.5m-16.5 6h16.5" />
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="absolute top-[120px] left-0 w-full bg-white shadow-lg flex flex-col items-center z-50">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `py-2 text-lg mt-[15px] font-bold w-[250px] rounded-full text-center ${isActive ? 'bg-[#FDECD8] text-black' : 'text-black'}`
+            }
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `py-2 text-lg font-bold w-[250px] rounded-full text-center ${isActive ? 'bg-[#FDECD8] text-black' : 'text-black'}`
+            }
+            onClick={() => setIsMenuOpen(false)}
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/programs"
+            className={({ isActive }) =>
+              `py-2 text-lg font-bold w-[250px] rounded-full text-center ${isActive ? 'bg-[#FDECD8] text-black' : 'text-black'}`
+            }
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Programs
+          </NavLink>
+          <NavLink
+            to="/team"
+            className={({ isActive }) =>
+              `py-2 text-lg font-bold w-[250px] rounded-full  text-center ${isActive ? 'bg-[#FDECD8] rounded-[20px] text-black' : 'text-black'}`
+            }
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Team
+          </NavLink>
+          <button className="w-[90%] mt-[15px] my-2 py-3 rounded-full border border-black text-sm font-medium">
+            Reach Out
+          </button>
+          <button className="w-[90%] mb-[15px] my-2 py-3 rounded-full bg-black text-white text-sm font-medium">
+            Get Started
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Navbar;
