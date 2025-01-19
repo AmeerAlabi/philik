@@ -1,9 +1,12 @@
 import React from 'react'
+import Contact from '../components/Contact'
+import Plans from '../components/Plans'
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="">Hello Home </h1>
+<div>
+    <Plans />
+    <Contact />
     </div>
   )
 }
