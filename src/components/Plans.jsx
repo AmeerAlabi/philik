@@ -8,11 +8,11 @@ const Plans = () => {
     <div className=" flex p-[50px] justify-center ">
        <h1 className=" text-[40px] font-[700]  border-r-[3px] border-[red] p-5 ">Breaking Barriers with Accessible Learning</h1> 
        <div className=" flex items-center gap-[20px] ">
-    <div className=" flex flex-col ml-[18px]  ">
+    {/* <div className=" flex flex-col ml-[18px]  ">
         <FaDollarSign color='#F24C3D' />
         <h2 className="  text-[#F24C3D] font-[500] mb-2">Free Starter Plan</h2>
         <p className="text-[16px] font-[500] text-[#4E4E4E] ">Gain access to foundational courses without spending a dime—no strings attached.</p>
-    </div>
+    </div> */}
     <div className=" flex flex-col  ">
         <FaDollarSign color='#F24C3D' />
         <h2 className="  text-[#F24C3D] font-[500] mb-2">Free Starter Plan</h2>
