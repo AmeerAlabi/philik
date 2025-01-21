@@ -7,16 +7,28 @@ import Content from '../components/Content'
 import Dashboard from '../components/Dashboard'
 import Vid from '../components/Vid'
 import Features from '../components/Features'
+import Tutors from '../components/Tutors'
+import Uni from '../components/Uni'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
 <div>
+  <Hero />
+  <Uni />
+  <Tutors />
   <Features />
   <Vid />
     <Dashboard />
+    <div className="my-[100px]">
     <Content />
+    </div>
+    <div className="my-[100px]">
     <Collab />
+    </div>
+    <div className="my-[100px]">
     <Learning />
+    </div>
     <Plans />
     <Contact />
     </div>

@@ -3,7 +3,7 @@ import collab from '../Assets/Images/collab.png'
 
 const Collab = () => {
   return (
-    <div className="mb-[30px] flex flex-col-reverse md:flex-row justify-center items-center gap-[20px] md:gap-[100px] p-5">
+    <div className="my-[40px] flex flex-col-reverse md:flex-row justify-center items-center gap-[20px] md:gap-[100px] p-5">
       {/* Image Section */}
      
       

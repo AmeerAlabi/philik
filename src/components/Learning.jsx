@@ -3,7 +3,7 @@ import offline from '../Assets/Images/ofline.png';
 
 const Learning = () => {
   return (
-    <div className="mb-[30px] flex flex-col md:flex-row justify-center items-center gap-[20px] md:gap-[100px] p-5">
+    <div className=" my-[40px] flex flex-col md:flex-row justify-center items-center gap-[20px] md:gap-[100px] p-5">
       {/* Image Section */}
       <div className="flex justify-center">
         <img
