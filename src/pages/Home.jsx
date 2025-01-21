@@ -5,10 +5,14 @@ import Learning from '../components/Learning'
 import Collab from '../components/Collab'
 import Content from '../components/Content'
 import Dashboard from '../components/Dashboard'
+import Vid from '../components/Vid'
+import Features from '../components/Features'
 
 const Home = () => {
   return (
 <div>
+  <Features />
+  <Vid />
     <Dashboard />
     <Content />
     <Collab />
