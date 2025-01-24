@@ -10,7 +10,7 @@ const Navbar = () => {
       <h1 className="font-bold text-2xl text-black hover:text-gray-600 transition duration-300">PHILIK</h1>
 
       {/* Navigation Links */}
-      <div className={`hidden md:flex w-[500px] px-[10px] h-[63px] rounded-full py-2 justify-center items-center gap-5 bg-[#FDECD8]`}>
+      <div className={`hidden md:flex w-[400px] px-[10px] h-[63px] rounded-full py-2 justify-center items-center gap-5 bg-[#FDECD8]`}>
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -19,14 +19,7 @@ const Navbar = () => {
         >
           Home
         </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'} hover:bg-gray-200 hover:scale-105 transition duration-300`
-          }
-        >
-          About
-        </NavLink>
+      
         <NavLink
           to="/programs"
           className={({ isActive }) =>
@@ -36,13 +29,14 @@ const Navbar = () => {
           Programs
         </NavLink>
         <NavLink
-          to="/team"
+          to="/about"
           className={({ isActive }) =>
             `text-lg font-bold px-4 py-2 rounded-full ${isActive ? 'bg-white text-black' : 'text-black'} hover:bg-gray-200 hover:scale-105 transition duration-300`
           }
         >
-          Team
+          About
         </NavLink>
+    
       </div>
 
       {/* Action Buttons */}
@@ -79,15 +73,7 @@ const Navbar = () => {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              `py-2 text-lg font-bold w-[250px] rounded-full text-center ${isActive ? 'bg-[#FDECD8] text-black' : 'text-black'} hover:bg-gray-200 hover:scale-105 transition duration-300`
-            }
-            onClick={() => setIsMenuOpen(false)}
-          >
-            About
-          </NavLink>
+       
           <NavLink
             to="/programs"
             className={({ isActive }) =>
@@ -97,15 +83,17 @@ const Navbar = () => {
           >
             Programs
           </NavLink>
+
           <NavLink
-            to="/team"
+            to="/about"
             className={({ isActive }) =>
-              `py-2 text-lg font-bold w-[250px] rounded-full  text-center ${isActive ? 'bg-[#FDECD8] rounded-[20px] text-black' : 'text-black'} hover:bg-gray-200 hover:scale-105 transition duration-300`
+              `py-2 text-lg font-bold w-[250px] rounded-full text-center ${isActive ? 'bg-[#FDECD8] text-black' : 'text-black'} hover:bg-gray-200 hover:scale-105 transition duration-300`
             }
             onClick={() => setIsMenuOpen(false)}
           >
-            Team
+            About
           </NavLink>
+          
           <button className="w-[90%] mt-[15px] my-2 py-3 rounded-full border border-black text-sm font-medium hover:bg-gray-100 hover:scale-105 transition duration-300">
             Reach Out
           </button>

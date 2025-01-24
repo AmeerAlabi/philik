@@ -1,9 +1,12 @@
 import React from 'react'
+import Herop from '../components/Herop'
+import Program from '../components/Program'
 
 const Programs = () => {
   return (
     <div className= 'h-[900px] '>
-      <h1 className="">Hello Program </h1>
+      <Herop />
+      <Program />
     </div>
   )
 }
