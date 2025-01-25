@@ -81,7 +81,7 @@ const Footer = () => {
           <p>
             Developed by{' '}
             <a href="https://github.com/AmeerAlabi" className="underline hover:text-black" target="_blank" rel="noopener noreferrer">
-              Ameer
+              Ameer🧑‍💻
             </a>.
           </p>
         </div>
