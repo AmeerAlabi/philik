@@ -64,12 +64,10 @@ const Lessons = () => {
 
   return (
     <div className="p-[30px] mb-[100px]  min-h-screen">
-      {/* Section Title */}
       <h2 className="text-4xl font-bold  text-black mb-8 ">
         Lessons
       </h2>
 
-      {/* Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
         {lessons.map((lesson, index) => (
           <LessonCard
