@@ -10,6 +10,7 @@ import Features from '../components/Features'
 import Tutors from '../components/Tutors'
 import Uni from '../components/Uni'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
     </div>
     <Plans />
     <Contact />
+    <Footer />
     </div>
   )
 }

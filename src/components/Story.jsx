@@ -39,9 +39,9 @@ const Story = () => {
   };
 
   return (
-    <div className="p-6 py-[60px]  ">
+    <div className="p-6 py-[60px] min-h-screen mt-[80px] ">
       {/* Section Title */}
-      <h2 className="text-4xl font-bold text-black mb-10 text-center">
+      <h2 className="text-[40px] font-bold text-black mb-4 px-[30px]">
         Our <span className="text-[#F6A139]">Story</span>
       </h2>
 

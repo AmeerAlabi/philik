@@ -1,5 +1,5 @@
 import React from 'react';
-import dummyPic from '../Assets/Images/dummy-profile.png'; 
+import dummyPic from '../Assets/Images/lessons.png';
 
 const Team = () => {
   // Array of team members
@@ -43,8 +43,7 @@ const Team = () => {
   ];
 
   return (
-    <div className="mt-[80px] p-[30px] bg-gray-50">
-      {/* Section Title */}
+    <div className="mt-[10px] min-h-screen p-[30px]">
       <h2 className="text-center px-[30px] mb-[20px] sm:text-left bg-gradient-to-r from-[#000] to-[#F6A139] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold leading-tight md:leading-[70px]">
         Our Amazing Team
       </h2>
@@ -60,11 +59,19 @@ const Team = () => {
             className="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-xl transition-shadow duration-300"
           >
             {/* Team Member Image */}
-            <img
-              src={member.image}
-              alt={member.name}
-              className="w-full h-[200px] object-cover"
-            />
+            <div className="flex justify-center mt-6">
+  <div className="relative w-28 h-28">
+    {/* Gradient Border */}
+    <div className="absolute inset-0 bg-gradient-to-r from-[#F6A139] to-[#000] rounded-full p-[2px]">
+      {/* Image inside the gradient border */}
+      <img
+        src={member.image}
+        alt={member.name}
+        className="w-full h-full rounded-full object-cover bg-white"
+      />
+    </div>
+  </div>
+</div>
 
             {/* Team Member Details */}
             <div className="p-6 text-center">

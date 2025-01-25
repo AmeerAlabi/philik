@@ -3,6 +3,7 @@ import Herop from '../components/Herop'
 import Lesson from '../components/Lesson'
 import Prog from '../components/Prog'
 import Lessons from '../components/Lesson'
+import Footer from '../components/Footer'
 
 const Programs = () => {
   return (
@@ -10,6 +11,7 @@ const Programs = () => {
       <Herop />
       <Prog />
       <Lessons />
+      <Footer />
     </div>
   )
 }

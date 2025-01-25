@@ -63,7 +63,7 @@ const Lessons = () => {
   ];
 
   return (
-    <div className="p-[30px] bg-gray-100 min-h-screen">
+    <div className="p-[30px] mb-[100px]  min-h-screen">
       {/* Section Title */}
       <h2 className="text-4xl font-bold  text-black mb-8 ">
         Lessons
