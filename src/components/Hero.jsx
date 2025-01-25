@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import pic from '../Assets/Images/hero-1.png';
+import pic from '../Assets/Images/herot.png';
 import pic2 from '../Assets/Images/hero-2.png';
 
 const Hero = () => {
@@ -9,8 +9,8 @@ const Hero = () => {
       {/* 1st Section */}
       <div className="w-full lg:w-[551px] flex flex-col p-5">
         {/* Tagline */}
-        <div className="flex gap-[10px] p-[10px] bg-[#ddf8f5] w-full max-w-[320px] h-[46px] rounded-[32px] justify-center items-center">
-          <div className="flex items-center justify-center w-[48px] h-[32px] text-black bg-white p-3 rounded-full">
+        <div className="flex gap-[10px] p-[10px] cursor-not-allowed bg-[#ddf8f5] w-full max-w-[320px] h-[46px] rounded-[32px] justify-center items-center">
+          <div className="flex  items-center justify-center w-[48px] h-[32px] text-black bg-white p-3 rounded-full">
             New
           </div>
           <div className="flex gap-[5px] items-center">
@@ -37,7 +37,7 @@ const Hero = () => {
         <img
           src={pic}
           alt="Hero 1"
-          className="w-full h-auto max-h-[600px] object-cover rounded-lg"
+          className="w-full h-auto max-h-[600px] object-cover rounded-[30px]"
         />
       </div>
 
