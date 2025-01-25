@@ -43,11 +43,11 @@ const Team = () => {
   ];
 
   return (
-    <div className="mt-[10px] min-h-screen p-[30px]">
-      <h2 className="text-center px-[30px] mb-[20px] sm:text-left bg-gradient-to-r from-[#000] to-[#F6A139] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold leading-tight md:leading-[70px]">
+    <div className="mt-[1px] min-h-screen px-[30px]">
+      <h2 className="text-center px-[30px] mb-[20px]  bg-gradient-to-r from-[#000] to-[#F6A139] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold leading-tight md:leading-[70px]">
         Our Amazing Team
       </h2>
-      <p className="px-[30px] mb-10 text-[16px] font-[400] text-[#737373] text-center sm:text-left">
+      <p className="px-[30px] mb-10 text-[16px]  font-[400] text-[#737373] text-center ">
         “Behind every great program is a team of passionate educators, designers, and leaders.”
       </p>
 

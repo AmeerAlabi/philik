@@ -39,16 +39,16 @@ const Story = () => {
   };
 
   return (
-    <div className="p-6 py-[60px] min-h-screen mt-[80px] ">
+    <div className="p-6 py-[60px] min-h-screen mt-[80px] bg-gray-100">
       {/* Section Title */}
-      <h2 className="text-[40px] font-bold text-black mb-4 px-[30px]">
+      <h2 className="text-[40px] font-bold text-black mb-4 px-[30px] text-center">
         Our <span className="text-[#F6A139]">Story</span>
       </h2>
 
       {/* Quote and Dropdowns */}
       <div className="flex flex-col lg:flex-row gap-12">
         {/* Quote Section */}
-        <div className="lg:w-1/2 bg-white shadow-lg p-8 rounded-lg">
+        <div className="lg:w-1/2 bg-white shadow-xl p-10 rounded-lg transform hover:scale-105 transition-transform duration-300">
           <p className="text-2xl lg:text-3xl italic font-medium text-black">
             <span className="text-4xl lg:text-5xl text-[#F6A139]">"</span>
             What started as a small initiative to address learning gaps has grown into a pan-African movement. We’re driven by the belief that education is a fundamental right, not a privilege.
@@ -61,12 +61,12 @@ const Story = () => {
           {dropdownData.map((item, index) => (
             <div
               key={index}
-              className="shadow-md border border-gray-200 bg-white rounded-lg overflow-hidden"
+              className="shadow-lg border border-gray-300 bg-white rounded-lg overflow-hidden"
             >
               {/* Dropdown Header */}
               <button
                 onClick={() => handleToggle(index)}
-                className="w-full flex justify-between items-center p-6 text-lg font-semibold text-gray-800 hover:bg-gray-100 transition duration-200"
+                className="w-full flex justify-between items-center p-6 text-lg font-semibold text-gray-800 bg-gray-50 hover:bg-gray-100 transition duration-200"
               >
                 {item.title}
                 <span

@@ -1,15 +1,19 @@
 import React from 'react';
 import { FaWhatsapp, FaYoutube, FaTelegram, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import logo from '../Assets/Images/logo (3).png'
+import { Substack } from './Substack';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#E2F4FF] text-black py-10">
+    <footer id='footer' className="bg-[#E2F4FF] text-black py-10">
       <div className="container mx-auto px-6 md:px-12">
         {/* Logo Section */}
         <div className="text-center mb-2">
           {/* You can replace this with your actual logo */}
+          <Link to='/'>
           <img src={logo} alt="Philik Opportunities Logo" className="mx-auto w-[300px] " />
+          </Link>
         </div>
 
         {/* Social Media Links */}
@@ -32,6 +36,14 @@ const Footer = () => {
             className="flex items-center gap-2 px-4 py-2 bg-white text-[#F6A139] rounded-full hover:bg-[#000] hover:text-white transition"
           >
             <FaYoutube /> YouTube
+          </a>
+          <a
+            href="http://philikopportunities.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 bg-white text-[#F6A139] rounded-full hover:bg-[#000] hover:text-white transition"
+          >
+            <Substack /> Substack
           </a>
 
           {/* Telegram */}

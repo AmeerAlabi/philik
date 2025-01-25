@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,12 +41,21 @@ const Navbar = () => {
 
       {/* Action Buttons */}
       <div className="hidden md:flex gap-6">
+      <Link
+        to="https://instagram.com/philikopportunities"  // Scrolls to the footer section
+        smooth={true}  // Enables smooth scrolling
+        offset={-70}   // Adjust if navbar is fixed
+        duration={500} // Duration of the scroll animation
+      >
         <button className="w-[123px] h-[45px] rounded-full text-sm font-medium border border-black flex items-center justify-center hover:bg-gray-100 hover:scale-105 transition duration-300">
           Reach Out
         </button>
+      </Link>
+        <Link to="/programs">
         <button className="w-[123px] h-[45px] rounded-full text-sm font-medium text-white bg-black flex items-center justify-center hover:bg-gray-800 hover:scale-105 transition duration-300">
           Get Started
         </button>
+        </Link>
       </div>
 
       {/* Hamburger Menu */}
