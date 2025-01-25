@@ -1,12 +1,88 @@
-import React from 'react'
+import React from 'react';
+import LessonCard from './LessonCard';
+import lessonImage1 from '../Assets/Images/lessons.png';
 
-const Lesson = () => {
+
+const Lessons = () => {
+  // Array of card data
+  const lessons = [
+    {
+      image: lessonImage1,
+      title: 'Data-Driven Decision-Making for Beginners',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Mastering Python for Data Science',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Introduction to Machine Learning',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Web Development Essentials',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Cybersecurity Fundamentals',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'AI and Robotics Basics',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Cloud Computing for Beginners',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Blockchain and Cryptocurrency',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+    {
+      image: lessonImage1,
+      title: 'Creative Coding with JavaScript',
+      buttonText: 'View',
+      isButtonDisabled: true,
+    },
+  ];
+
   return (
-    <div className=' p-[30px ] '>
-      <h2 className="  text-[48px] font-[700] text-[black] ">Lessons</h2>
-      <Lesson />
-    </div>
-  )
-}
+    <div className="p-[30px] bg-gray-100 min-h-screen">
+      {/* Section Title */}
+      <h2 className="text-4xl font-bold  text-black mb-8 ">
+        Lessons
+      </h2>
 
-export default Lesson
+      {/* Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+        {lessons.map((lesson, index) => (
+          <LessonCard
+            key={index}
+            image={lesson.image}
+            title={lesson.title}
+            buttonText={lesson.buttonText}
+            isButtonDisabled={lesson.isButtonDisabled}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Lessons;

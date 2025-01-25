@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import crd1 from '../Assets/Images/crd1.png';
 
-const Program = () => {
+const Prog = () => {
   const cards = [
     {
       title: 'Tech Next Scholarships',
@@ -73,4 +73,4 @@ const Program = () => {
   );
 };
 
-export default Program;
+export default Prog;
