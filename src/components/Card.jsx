@@ -26,8 +26,7 @@ const Card = ({ title, description, image, features }) => {
       <div className="flex flex-col gap-4">
         {features.map((feature, index) => (
           <div
-            key={index}
-            className="flex items-center gap-3"
+            "
           >
             <img src={check} alt="Check" className="w-6 h-6" />
             <h3 className="text-lg font-medium text-gray-800">
