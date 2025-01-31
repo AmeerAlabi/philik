@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <div className="px-5 py-10 ">
       {/* Title */}
-      <h1 className="my-10 mx-auto text-center text-[32px] md:text-[48px] font-bold text-[#F24C3D] max-w-[900px]">
+      <h1 className="my-10 mx-auto text-center ] font-bold text-[#F24C3D] max-w-[900px]">
         Elevate Learning with Philik’s Cutting-Edge Academic Solutions
       </h1>
 
