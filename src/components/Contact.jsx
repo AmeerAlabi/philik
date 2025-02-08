@@ -8,7 +8,7 @@ const Contact = () => {
     return (
       <div className="text-center my-5">
         <p className="text-lg font-semibold text-green-600">
-          Thank you! Your messen sent successfully.
+          Thank  messen sent successfully.
         </p>
       </div>
     );
