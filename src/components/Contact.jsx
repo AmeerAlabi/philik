@@ -14,7 +14,7 @@ const Contact = () => {
     );
   }
 
-  return (
+  retu
     <div className="my-12 mx-auto px-5 w-[85%] flex flex-col md:flex-row justify-center items-center md:items-start gap-10">
       {/* Heading */}
       <h1 className="text-[36px] md:text-[70px] font-semibold text-black text-center md:text-left">
