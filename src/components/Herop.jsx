@@ -6,7 +6,7 @@ const Herop = () => {
      my-6 px-8">
       {/* Heading */}
       <h1 className="text-center sm:text-left bg-gradient-to-r from-[#000] to-[#F6A139] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl font-bold leadin
-      </h1>
+   
 
       {/* Paragraph */}
       <p className="text-center sm:text-left text-sm sm:text-base md:text-lg text-[#737373] mt-4 leading-relaxed">
