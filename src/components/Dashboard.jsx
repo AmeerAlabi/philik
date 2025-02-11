@@ -8,7 +8,7 @@ const Dashboard = () => {
      
       
       {/* Text Section */}
-      <div className="w-full my-[40px] md:w-[400px] flex flex-col justify-start items-start gap-[15px] text-center md:text-left">
+      <div className="w-full my-[40px] md:w-[400px] flex flex-col just items-start gap-[15px] text-center md:text-left">
         <h1 className="font-bold text-[#22a699] text-[32px] md:text-[48px] lg:text-[64px] leading-[1.2]">
         Interactive Dashboards
         </h1>
