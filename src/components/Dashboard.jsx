@@ -12,7 +12,7 @@ const Dashboard = () => {
         <h1 className="font-bold text-[#22a699] text-[32px] md:text-[48px] lg:text-[64px] leading-[1.2]">
         Interactive Dashboards
         </h1>
-        <p className="text-[14px] md:text-[16px] font-normal text-black mt-[5px]">
+        <p className="text-[14px] md:text-[16px] font-normal text-black mt
         Stay ahead with real-time analytics that visualize student progress and performance at a glance.
         </p>
         <button className="w-[180px]  mx-auto md:mx-0 md:w-[200px] h-[45px] md:h-[50px] bg-black text-white rounded-[30px] mt-[20px]">
