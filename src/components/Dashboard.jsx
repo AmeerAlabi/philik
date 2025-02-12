@@ -3,7 +3,7 @@ import offline from '../Assets/Images/dashboard.png';
 
 const Dashboard = () => {
   return 
-    <div className="mb-[30px] flex-col-reverse  flex  md:flex-row justify-center items-center gap-[20px] md:gap-[100px] 
+    <div className="mb-[30px] flex-col-reverse  flex  md:flex-row justify-center items-center gap-[20px] 
       {/* Image Section */}
      
       
