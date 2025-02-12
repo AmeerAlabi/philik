@@ -1,4 +1,4 @@
-import React from 'react';
+8import React from 'react';
 import offline from '../Assets/Images/dashboard.png';
 
 const Dashboard = () => {
@@ -7,7 +7,7 @@ const Dashboard = () => {
       {/* Image Section */}
      
       
-      {/* Text Section */}
+      {/* 
       <div className="w-full my-[40px] md:w-[400px] flex flex-col just items-start gap-[15px] text-center md:text-left">
         <h1 className="font-bold text-[#22a699] text-[32px] md:text-[48px] lg:text-[64px] leading-[1.2]">
         Interactive Dashboards
