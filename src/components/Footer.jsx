@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer id='footer' className="bg-[#E2F4FF] text-black py-10">
-      <div className="container mx-auto px-6 md:px-12">
+      <div className="container mx-auto px-6 md:px-12">https://chat.whatsapp.com/IhM0CEH1fYzH0dFFEk2iIUhttps://chat.whatsapp.com/IhM0CEH1fYzH0dFFEk2iIUhttps://chat.whatsapp.com/IhM0CEH1fYzH0dFFEk2iIUhttps://chat.whatsapp.com/IhM0CEH1fYzH0dFFEk2iIUhttps://chat.whatsapp.com/IhM0CEH1fYzH0dFFEk2iIU
         {/* Logo Section */}
         <div className="text-center mb-2">
           {/* You can replace this with your actual logo */}
