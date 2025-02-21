@@ -13,7 +13,7 @@ const Footer = () => {
           {/* You can replace this with your actual logo */}
           <Link to='/'>
           <img src={logo} alt="Philik Opportunities Logo" className="mx-auto w-[300px] " />
-          </Link>
+          </
         </div>
 
         {/* Social Media Links */}
