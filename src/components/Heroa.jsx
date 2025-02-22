@@ -10,7 +10,7 @@ const Heroa = () => {
      </h1>
 
      {/* Paragraph */}
-     <p className="text-center sm:text-left text-sm sm:text-base md:text-lg text-[#737373] mt-4 leading-relaxed">
+     <p className="text-center sm:text-left text-sm sm:text-base md: text-[#737373] mt-4 leading-relaxed">
      Empowering students and educators across the continent through accessible, affordable, and impactful learning programs.
      </p>
    </div>
