@@ -11,8 +11,7 @@ const Features = () => {
       {/* Title */}
       <h1 className="my-10 mx-auto text-center ] font-bold text-[#F24C3D] max-w-[900px]">
         Elevate Learning with Philik’s Cutting-Edge Academic Solutions
-      </h1>
-
+     
       {/* Content */}
       <div className="flex flex-col md:flex-row justify-center items-start gap-10 p-5">
         {/* Image */}
