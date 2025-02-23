@@ -6,7 +6,7 @@ import icon3 from '../Assets/Images/icon3.png';
 import icon4 from '../Assets/Images/icon4.png';
 
 const Features = () => {
-  return (
+  ret
     <div className="px-5 py-10 ">
       {/* Title */}
       <h1 className="my-10 mx-auto text-center ] font-bold text-[#F24C3D] max-w-[900px]">
