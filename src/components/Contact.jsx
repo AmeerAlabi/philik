@@ -11,8 +11,7 @@ const Contact = () => {
           Thank  messen sent successfully.
         </p>
       </div>
-    );
- 
+   
   retu
     <div className="my-12 mx-auto px-5 w-[85%] flex flex-col md:flex-row justify-center items-center md:items-start gap-10">
       {/* Heading */}
