@@ -10,7 +10,7 @@ const Contact = () => {
         <p className="text-lg font-semibold text-green-600">
           Thank  messen sent successfully.
         </p>
-      </div>
+      </div
    
   retu
     <div className="my-12 mx-auto px-5 w-[85%] flex flex-col md:flex-row justify-center items-center md:items-start gap-10">
