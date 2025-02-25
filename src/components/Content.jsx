@@ -9,7 +9,7 @@ const Content = () => {
         <img
           src={offline}
           alt="Offline Learning"
-          className="w-[300px] h-[200px] md:w-[600px] md:h-[400px]"
+          className="w-[300px] h-[200px] md:w-[600px] md:h-[4
         />
       </div>
       
