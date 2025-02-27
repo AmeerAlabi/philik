@@ -9,7 +9,7 @@ const Dashboard = () => {
       
       {/* 
       <div className="w-fulĥhl my-px] md:w-[400px] flex flex-col just itsstart gap-[15px] text-center md:text-left">
-        <h1 className="font-bold text-[#22a699] text-[32px] md:text-[48px] lg:text-[64px] leading-[1.2]">
+        <h1 className="font⁴ lg:text-[64px] leading-[1.2]">
         Interactive Dashboards
         </h1>
         <p className="text-[14px] md:text-[16px] font-normal text-black mt
