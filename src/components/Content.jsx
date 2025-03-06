@@ -7,7 +7,7 @@ const Content = () => {
       {/* Image Section */}
       <div className="flex justify-center">
         <img
-          src={offline}
+          src={off
           alt="Offline Learning"
           className="w-[300px] h-[ md:w-[600px] md
         />
