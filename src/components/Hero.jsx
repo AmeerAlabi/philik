@@ -9,7 +9,7 @@ const Hero = () => {
       <div classNa="w-full lg:w-[551px] flex flex-col p-5">
         {/* 
         <div className="flex gap-[10px] p-[10px] cursr-not-allo#w-full max-w-[320px] h-[46px] rounded-[32px] justify-center items-center">
-          <div className="flex  items-center justify-center w-[48px] h-[32px] text-black bg-white p-3 rounded-full">
+          v className="flex  items-center justify-center w-[48px] h-[32px] text-black bg-white p-3 rounded-full">
             New
           </div>
           <div className="flex gap-[5px] items-center">
