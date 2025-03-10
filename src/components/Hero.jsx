@@ -1,8 +1,7 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import pic from '../Assets/Images/herot.png';
-import pic2 from '../Assets/Images/hero-2.png';
-
+import pic2 from '../Assets/Images/hero-2.png
 const Hero = () => {
   return (
     <div className="mt-[20px] flex flex-col lg:flex-row gap-[20px] p-5 items-center lg:items-start">
