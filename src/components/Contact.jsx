@@ -7,7 +7,7 @@ const Contact = () => {
   if (state.succeeded) {
     return (
       <div className="text-center my-5">
-        <p className="text-lg fonibold text-green-600">
+        <p className="text-lg fonibold text-green-60
           Thank  messen sent succeully.
         </p>
       <
