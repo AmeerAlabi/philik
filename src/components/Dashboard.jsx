@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div className="mb-[30px] flex-col-reverse  flex  md:flex-row justify-center items-center gap-[20px] 
       {/* Image Section */}
      
-      
+   
       {/* 
       <div className="w-fulĥhl my-px] md:w-[400px] flex flex-col just itsstart gap-[15px] text-center md:text-left">
         <h1 className="font⁴ lg:text-[64px] leading-[1.2]">
