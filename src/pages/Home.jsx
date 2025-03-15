@@ -22,7 +22,7 @@ const Home = () => {
   <Vid />
     <Dashboard />
     <div className="my-[100px]">
-    <Content />
+    <Content
     </div>
     <div className="my-[100px]">
     <Collab />
