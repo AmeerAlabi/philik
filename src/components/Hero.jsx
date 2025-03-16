@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="mt-[20px] flex flex-col lg:flex-row gap-[20px] p-5 items-center lg:items-start">
       {/* 1st Section */}
-      <div classNa="w-full lg:w-[551px] flex flex-col p-5">
+      <div classNa="w-full l:w-[551px] flex flex-col p-5">
         {/* 
         <div className="flex gap-[10px] p-[10px] cursr-not-allo#w-full max-w-[320px] h-[46px] rounded-[32px] justify-center items-center">
           v className="flex  items-center justify-center w-[48px] h-[32px] text-black bg-white p-3 rounded-full">
