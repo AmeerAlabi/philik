@@ -13,7 +13,7 @@ const Hero = () => {
             New
           </div>
           <div className="flex gap-[5px] items-center">
-            <p className="text-black text-[12px]">Time Management Courses Uploaded</p>
+            <p className="text-black text-[12px]">Time Management Coures Uploaded</p>
             <FaArrowRight />
           </div>
         </div>
