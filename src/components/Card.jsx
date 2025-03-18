@@ -6,7 +6,7 @@ const Card = ({ title, description, image, features }) => {
   return (
     <div className="flex flex-col p-[30px] bg-white shadow-lg rounded-2xl w-full max-w-[600px] h-auto border border-gray-200 hover:shadow-2xl transition-shadow duration-300">
       {/* Title */}
-      <h2 className="text-4xl font-bold bg-gradient-to-r from-[#000] to-[#F24C3D] text-transparent bg-clip-text mb-4">
+      <h2 className="text-4xl font-bold bg-gradient-to-r from-[#000o-[#F24C3D] text-transparent bg-clip-text mb-4">
         {title}
       </h2>
 
