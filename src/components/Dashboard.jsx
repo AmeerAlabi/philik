@@ -8,7 +8,7 @@ const Dashboard = () => {
      
    
       {
-      <div className="w-fulĥhl my-px] md:w-[400px] fl flex-col just itsstart gap-[15px] text-center md:text-left">
+      <div className="w-fulĥhl my-px] md:w-[400px] fl flex-col just itssta gap-[15px] text-center md:text-left">
         <h1 className="font⁴ lg:text-[64px] leading-[1.2]">
         Interactiv
         </h
