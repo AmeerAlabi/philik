@@ -18,7 +18,7 @@ const Contact = () => {
       <h1 className="text-[36px] md:text-[70px] font-semibold text-black text-center md:text-left">
         Do you have questions? <br />
         Ask us.
-      </h1>
+      </h
 
       {/* Form */}
       <form
