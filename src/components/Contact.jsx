@@ -10,7 +10,7 @@ const Contact = () => {
         <p className="text-lg fonibold text-green-60
           Thank  messen sent succeully.
         </p>
-      <
+     
   
   retu
     <div className="my-12 mx-auto px-5 w-[85%] flex flex-col md:flex-r justify-center items-center md:items-start gap-10"
