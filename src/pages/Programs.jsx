@@ -11,7 +11,7 @@ const Programs = () => {
       <Herop />
       <Prog />
       <Lessons />
-      <Footer />
+      <Footer /
     </div>
   )
 }
