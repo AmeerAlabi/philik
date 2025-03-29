@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 const Programs = () => {
   return (
-    <div className= 'h-[900px] '>
+    <div className= 'h-[900px] 
       <Herop />
       <Prog />
       <Lessons />
